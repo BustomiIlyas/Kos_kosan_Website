@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #000000;
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #ffffff;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.banner {
+  background: url('Banner.webp') no-repeat center center/cover;
+  color: rgb(255, 255, 255);
+  padding: 350px 20px;
+  text-align: center;
+}
+
+#listings {
+  padding: 20px;
+  text-align: center;
+}
+
+.kost-card {
+  border: 1px solid #4CAF50;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+}
+
+.kost-card img {
+  width: 100%;
+}
+
+.kost-card button {
+  background-color: #4CAF50;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#contact {
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+}

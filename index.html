@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pondok Dinar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Pondok Dinar</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#listings">Daftar Kost</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="banner">
+            <h2>Temukan Kost Idamanmu</h2>
+            <p>Kost nyaman dan strategis untuk kamu yang membutuhkan tempat tinggal yang aman dan nyaman.</p>
+        </div>
+    </section>
+
+    <section id="listings">
+        <h2>Daftar Kost</h2>
+          <div class="kost-card">
+              <img src="Kost 1.jpg" alt="Kost 1">
+               <h3>Kost Eksklusif</h3>
+               <p>Fasilitas lengkap, lokasi strategis.</p>
+               <button onclick="goToDetail('detail1.html')">Lihat Detail</button>
+          </div>
+          <div class="kost-card">
+            <img src="kost 2.webp" alt="Kost 2">
+              <h3>Kost Harian</h3>
+              <p>Harga terjangkau, cocok untuk pelajar.</p>
+              <button onclick="goToDetail('detail2.html')">Lihat Detail</button>
+          </div>
+      
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
